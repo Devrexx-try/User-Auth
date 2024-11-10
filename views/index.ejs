@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication App</title>
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        /* Base styling */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 1.2rem;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        .links a:hover {
+            color: #0056b3;
+        }
+
+        /* Mobile and smaller screen styles */
+        @media (max-width: 600px) {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 20px;
+                width: 90%;
+                max-width: 90%;
+            }
+
+            .links a {
+                font-size: 1rem;
+                margin: 0 10px;
+            }
+
+            .links {
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to the Authentication App</h2>
+        <div class="links">
+            <a href="/auth/register">Register</a> |
+            <a href="/auth/login">Login</a>
+        </div>
+    </div>
+</body>
+</html>
